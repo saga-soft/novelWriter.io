@@ -1,10 +1,10 @@
 .. _main_release_26_2:
 
-*************************
-Pre-Release 2026.2 Beta 2
-*************************
+***********************
+Pre-Release 2026.2 RC 1
+***********************
 
-| **Release Date:** 2 August, 2026
+| **Release Date:** 9 August, 2026
 
 
 Release Notes
@@ -16,7 +16,7 @@ for the text editor, such as hover cards, zoom, and adjustable line height.
 
 .. attention::
 
-   This is a beta release of the next release version, and is intended for testing purposes. Please be careful when
+   This is a release candidate of the next release version, and is intended for testing purposes. Please be careful when
    using this version on live writing projects, and make sure you take frequent backups.
 
 .. attention::
@@ -130,4 +130,5 @@ Older Releases
 
 Past release packages are available for download on `GitHub <https://github.com/vkbo/novelWriter/releases>`__.
 
+| :octicon:`mark-github` `Download Release 26.2 Beta 2 <https://github.com/vkbo/novelWriter/releases/tag/v26.2b2>`__
 | :octicon:`mark-github` `Download Release 26.2 Beta 1 <https://github.com/vkbo/novelWriter/releases/tag/v26.2b1>`__

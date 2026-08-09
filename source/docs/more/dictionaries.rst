@@ -5,7 +5,6 @@ Spell Check Dictionaries
 ************************
 
 .. _Enchant: https://rrthomas.github.io/enchant/
-.. _Free Desktop: https://cgit.freedesktop.org/libreoffice/dictionaries/tree/
 
 Spell checking is provided by the Enchant_ library. Depending on your operating system, it may or
 may not load all installed spell check dictionaries automatically.
@@ -42,14 +41,3 @@ You need to get compatible dictionary files for your language. You need two file
 
 This assumes your user profile is stored at ``C:\Users\<USER>``. The last one or two folders may
 not exist, so you may need to create them.
-
-You can find the various dictionaries on the `Free Desktop`_ website.
-
-.. note::
-
-   The Free Desktop link points to a repository, and what may look like file links inside the
-   dictionary folder are actually links to web pages. If you right-click and download those, you
-   get HTML files, not dictionaries!
-
-   In order to download the actual dictionary files, right-click the "plain" label at the end of
-   each line and download that.
