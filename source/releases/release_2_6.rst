@@ -7,7 +7,7 @@ Release 2.6
 | **Release Date:** 26 January, 2025
 | **Patches:** :ref:`2.6.1 <main_release_2_6_1>`, :ref:`2.6.2 <main_release_2_6_2>`, :ref:`2.6.3 <main_release_2_6_3>`
 
-.. _Issues: https://github.com/vkbo/novelWriter/issues
+.. _Issues: https://github.com/saga-soft/novelWriter/issues
 
 
 Release Notes
@@ -162,12 +162,12 @@ translation was used. The bug affected all languages except for English.
 Older Releases
 ==============
 
-Past release packages are available for download on `GitHub <https://github.com/vkbo/novelWriter/releases>`__.
+Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
-| :octicon:`mark-github` `Download Release 2.6.3 <https://github.com/vkbo/novelWriter/releases/tag/v2.6.3>`__
-| :octicon:`mark-github` `Download Release 2.6.2 <https://github.com/vkbo/novelWriter/releases/tag/v2.6.2>`__
-| :octicon:`mark-github` `Download Release 2.6.1 <https://github.com/vkbo/novelWriter/releases/tag/v2.6.1>`__
-| :octicon:`mark-github` `Download Release 2.6 <https://github.com/vkbo/novelWriter/releases/tag/v2.6>`__
-| :octicon:`mark-github` `Download Release 2.6 RC 1 <https://github.com/vkbo/novelWriter/releases/tag/v2.6rc1>`__
-| :octicon:`mark-github` `Download Release 2.6 Beta 2 <https://github.com/vkbo/novelWriter/releases/tag/v2.6b2>`__
-| :octicon:`mark-github` `Download Release 2.6 Beta 1 <https://github.com/vkbo/novelWriter/releases/tag/v2.6b1>`__
+| :octicon:`mark-github` `Download Release 2.6.3 <https://github.com/saga-soft/novelWriter/releases/tag/v2.6.3>`__
+| :octicon:`mark-github` `Download Release 2.6.2 <https://github.com/saga-soft/novelWriter/releases/tag/v2.6.2>`__
+| :octicon:`mark-github` `Download Release 2.6.1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.6.1>`__
+| :octicon:`mark-github` `Download Release 2.6 <https://github.com/saga-soft/novelWriter/releases/tag/v2.6>`__
+| :octicon:`mark-github` `Download Release 2.6 RC 1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.6rc1>`__
+| :octicon:`mark-github` `Download Release 2.6 Beta 2 <https://github.com/saga-soft/novelWriter/releases/tag/v2.6b2>`__
+| :octicon:`mark-github` `Download Release 2.6 Beta 1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.6b1>`__

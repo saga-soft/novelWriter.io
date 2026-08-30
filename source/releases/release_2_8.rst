@@ -117,18 +117,13 @@ the spell check dictionary cannot be loaded, handles headings in HTML manuscript
 updates the documentation on how heading levels are handled in the manuscript build process.
 
 
-Download Links
-==============
-
-.. include:: ../generated/download_release.rst
-
-
 Older Releases
 ==============
 
-Past release packages are available for download on `GitHub <https://github.com/vkbo/novelWriter/releases>`__.
+Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
-| :octicon:`mark-github` `Download Release 2.8.1 <https://github.com/vkbo/novelWriter/releases/tag/v2.8.1>`__
-| :octicon:`mark-github` `Download Release 2.8 <https://github.com/vkbo/novelWriter/releases/tag/v2.8>`__
-| :octicon:`mark-github` `Download Release 2.8 RC 1 <https://github.com/vkbo/novelWriter/releases/tag/v2.8rc1>`__
-| :octicon:`mark-github` `Download Release 2.8 Beta 1 <https://github.com/vkbo/novelWriter/releases/tag/v2.8b1>`__
+| :octicon:`mark-github` `Download Release 2.8.2 <https://github.com/saga-soft/novelWriter/releases/tag/v2.8.2>`__
+| :octicon:`mark-github` `Download Release 2.8.1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.8.1>`__
+| :octicon:`mark-github` `Download Release 2.8 <https://github.com/saga-soft/novelWriter/releases/tag/v2.8>`__
+| :octicon:`mark-github` `Download Release 2.8 RC 1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.8rc1>`__
+| :octicon:`mark-github` `Download Release 2.8 Beta 1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.8b1>`__

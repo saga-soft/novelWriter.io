@@ -10,7 +10,7 @@ also through contributions to the code or by adding translations into other lang
 There is a full list of credits available on GitHub and in the :guilabel:`About` dialog inside
 novelWriter.
 
-| :octicon:`link` `GitHub: Credits <https://github.com/vkbo/novelWriter/blob/main/CREDITS.md>`__
+| :octicon:`link` `GitHub: Credits <https://github.com/saga-soft/novelWriter/blob/main/CREDITS.md>`__
 
 
 Want to Help?
@@ -59,7 +59,7 @@ Sometimes there are issue tickets in the main novelWriter project page marked as
 appreciated. Even if you don't know how to write the code, adding your knowledge to the discussion
 may still be helpful.
 
-| :octicon:`link` `GitHub: Issues marked as "help wanted" <https://github.com/vkbo/novelWriter/labels/help%20wanted>`__
+| :octicon:`link` `GitHub: Issues marked as "help wanted" <https://github.com/saga-soft/novelWriter/labels/help%20wanted>`__
 
 
 New Feature Ideas
@@ -75,5 +75,5 @@ there are features that will not be implemented because they distract from its p
 more common of those are listed in a specific "Frequently Requested Features" issue. Please check
 there first.
 
-| :octicon:`link` `GitHub: Features and Issues <https://github.com/vkbo/novelWriter/issues>`__
-| :octicon:`link` `GitHub: Frequently Requested Features <https://github.com/vkbo/novelWriter/issues/815>`__
+| :octicon:`link` `GitHub: Features and Issues <https://github.com/saga-soft/novelWriter/issues>`__
+| :octicon:`link` `GitHub: Frequently Requested Features <https://github.com/saga-soft/novelWriter/issues/815>`__

@@ -86,7 +86,7 @@ def processReleaseNotes(text):
     """Format the release notes text."""
 
     def ghLinks(x):
-        return f"`#{x.group(1)} <https://github.com/vkbo/novelWriter/issues/{x.group(1)}>`_"
+        return f"`#{x.group(1)} <https://github.com/saga-soft/novelWriter/issues/{x.group(1)}>`_"
 
     buffer = []
     for line in text.splitlines():
@@ -172,7 +172,7 @@ def pullRelease(args):
 
     print(f"Tag: {args.tag}")
 
-    apiUrl = f"https://api.github.com/repos/vkbo/novelwriter/releases/tags/{args.tag}"
+    apiUrl = f"https://api.github.com/repos/saga-soft/novelwriter/releases/tags/{args.tag}"
     urlReq = urllib.request.Request(apiUrl)
     urlReq.add_header("User-Agent", "Mozilla/5.0 (compatible; novelWriter (Python))")
     urlReq.add_header("Accept", "application/vnd.github.v3+json")

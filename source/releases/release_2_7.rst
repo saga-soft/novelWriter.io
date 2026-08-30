@@ -46,7 +46,7 @@ Story Structure Comments
    :align: right
 
 Story Structure Comments are a new style of comments that can be used to annotate your scenes with structure information. The
-feature was proposed by Alan Langford in `this discussion thread <https://github.com/vkbo/novelWriter/discussions/1769>`__ and
+feature was proposed by Alan Langford in `this discussion thread <https://github.com/saga-soft/novelWriter/discussions/1769>`__ and
 implemented based on a proof of concept.
 
 A story structure comment consists of the standard comment symbol ``%``, a ``story`` keyword and a custom term, before the comment
@@ -195,12 +195,12 @@ positioning of the input box for CJK languages.
 Download Links
 ==============
 
-Past release packages are available for download on `GitHub <https://github.com/vkbo/novelWriter/releases>`__.
+Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
-| :octicon:`mark-github` `Download Release 2.7.4 <https://github.com/vkbo/novelWriter/releases/tag/v2.7.4>`__
-| :octicon:`mark-github` `Download Release 2.7.3 <https://github.com/vkbo/novelWriter/releases/tag/v2.7.3>`__
-| :octicon:`mark-github` `Download Release 2.7.2 <https://github.com/vkbo/novelWriter/releases/tag/v2.7.2>`__
-| :octicon:`mark-github` `Download Release 2.7.1 <https://github.com/vkbo/novelWriter/releases/tag/v2.7.1>`__
-| :octicon:`mark-github` `Download Release 2.7 <https://github.com/vkbo/novelWriter/releases/tag/v2.7>`__
-| :octicon:`mark-github` `Download Release 2.7 RC 1 <https://github.com/vkbo/novelWriter/releases/tag/v2.7rc1>`__
-| :octicon:`mark-github` `Download Release 2.7 Beta 1 <https://github.com/vkbo/novelWriter/releases/tag/v2.7b1>`__
+| :octicon:`mark-github` `Download Release 2.7.4 <https://github.com/saga-soft/novelWriter/releases/tag/v2.7.4>`__
+| :octicon:`mark-github` `Download Release 2.7.3 <https://github.com/saga-soft/novelWriter/releases/tag/v2.7.3>`__
+| :octicon:`mark-github` `Download Release 2.7.2 <https://github.com/saga-soft/novelWriter/releases/tag/v2.7.2>`__
+| :octicon:`mark-github` `Download Release 2.7.1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.7.1>`__
+| :octicon:`mark-github` `Download Release 2.7 <https://github.com/saga-soft/novelWriter/releases/tag/v2.7>`__
+| :octicon:`mark-github` `Download Release 2.7 RC 1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.7rc1>`__
+| :octicon:`mark-github` `Download Release 2.7 Beta 1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.7b1>`__

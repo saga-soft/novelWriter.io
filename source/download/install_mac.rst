@@ -4,8 +4,8 @@
 Installing on MacOS
 *******************
 
-.. _GitHub: https://github.com/vkbo/novelWriter
-.. _Releases: https://github.com/vkbo/novelWriter/releases
+.. _GitHub: https://github.com/saga-soft/novelWriter
+.. _Releases: https://github.com/saga-soft/novelWriter/releases
 
 .. attention::
 

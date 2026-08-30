@@ -128,7 +128,7 @@ Download Links
 Older Releases
 ==============
 
-Past release packages are available for download on `GitHub <https://github.com/vkbo/novelWriter/releases>`__.
+Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
-| :octicon:`mark-github` `Download Release 26.2 Beta 2 <https://github.com/vkbo/novelWriter/releases/tag/v26.2b2>`__
-| :octicon:`mark-github` `Download Release 26.2 Beta 1 <https://github.com/vkbo/novelWriter/releases/tag/v26.2b1>`__
+| :octicon:`mark-github` `Download Release 26.2 Beta 2 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2b2>`__
+| :octicon:`mark-github` `Download Release 26.2 Beta 1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2b1>`__

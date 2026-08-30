@@ -3,7 +3,7 @@
 .. _Ubuntu: https://ubuntu.com/
 .. _Debian: https://www.debian.org/
 .. _Linux Mint: https://linuxmint.com/
-.. _novelWriter Repository: https://github.com/vkbo/novelWriter/
+.. _novelWriter Repository: https://github.com/saga-soft/novelWriter/
 .. _SignPath.io: https://about.signpath.io/
 .. _SignPath Foundation: https://signpath.org/
 
@@ -108,7 +108,7 @@ Source Code
 
    For the time being, the MacOS releases have been discontinued. There is currently no one available to maintain these
    releases. This is an open source project, and it depends on volunteers and contributors to run.
-   See `this discussion <https://github.com/vkbo/novelWriter/discussions/2618>`__ for more details.
+   See `this discussion <https://github.com/saga-soft/novelWriter/discussions/2618>`__ for more details.
 
    If you own a Mac and have a Python environment set up, you can still install the Python package of novelWriter and
    run the latest release. See :ref:`main_install_pypi` for more details.

@@ -131,16 +131,6 @@ Among other improvements are:
   for instance Excel or Libre Office Calc. The export is initiated from a new "Export CSV" button in the toolbar above the outline.
 
 
-Further Details
----------------
-
-The next upcoming release of novelWriter is 2.3.
-
-You can follow the development progress on the `2.3 Milestone <https://github.com/vkbo/novelWriter/milestone/73>`__.
-
-Feedback for the 2.3 RC 1 release can be posted on the `GitHub Discussions <https://github.com/vkbo/novelWriter/discussions/1713>`__ thread.
-
-
 Patch Releases
 ==============
 
@@ -158,9 +148,9 @@ completed translations for French.
 Download Links
 ==============
 
-Past release packages are available for download on `GitHub <https://github.com/vkbo/novelWriter/releases>`__.
+Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
-| :octicon:`mark-github` `Download Release 2.3.1 <https://github.com/vkbo/novelWriter/releases/tag/v2.3.1>`__
-| :octicon:`mark-github` `Download Release 2.3 <https://github.com/vkbo/novelWriter/releases/tag/v2.3>`__
-| :octicon:`mark-github` `Download Release 2.3 RC 1 <https://github.com/vkbo/novelWriter/releases/tag/v2.3rc1>`__
-| :octicon:`mark-github` `Download Release 2.3 Beta 1 <https://github.com/vkbo/novelWriter/releases/tag/v2.3b1>`__
+| :octicon:`mark-github` `Download Release 2.3.1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.3.1>`__
+| :octicon:`mark-github` `Download Release 2.3 <https://github.com/saga-soft/novelWriter/releases/tag/v2.3>`__
+| :octicon:`mark-github` `Download Release 2.3 RC 1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.3rc1>`__
+| :octicon:`mark-github` `Download Release 2.3 Beta 1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.3b1>`__

@@ -7,15 +7,15 @@ import shutil
 import subprocess
 import tomllib
 import urllib.request
-
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT_DIR = Path(__file__).parent.parent
+LOCAL_TZ = ZoneInfo("Europe/Oslo")
 
 
 class Documentation:
-
     def __init__(self, target: str, isBranch=False):
 
         self._tag = None if isBranch else target
@@ -34,8 +34,6 @@ class Documentation:
         self._nwPatch = 0
         self._nwDev = ""
 
-        return
-
     @property
     def release(self):
         return self._nwRelease
@@ -43,15 +41,15 @@ class Documentation:
     def pullDocs(self):
         """Pull the archived version of the docs from GitHub."""
         if self._branch:
-            dlUrl = f"https://github.com/vkbo/novelWriter/archive/refs/heads/{self._branch}.zip"
+            dlUrl = f"https://github.com/saga-soft/novelWriter/archive/refs/heads/{self._branch}.zip"
             dlZip = f"novelWriter-{self._branch}.zip"
             reUse = False
         elif self._tag:
-            dlUrl = f"https://github.com/vkbo/novelWriter/archive/refs/tags/{self._tag}.zip"
+            dlUrl = f"https://github.com/saga-soft/novelWriter/archive/refs/tags/{self._tag}.zip"
             dlZip = f"novelWriter-{self._tag.lstrip('v')}.zip"
             reUse = True
         else:
-            raise Exception("No tag or branch specified")
+            raise RuntimeError("No tag or branch specified")
 
         outDir = ROOT_DIR / "_temp"
         self._tempDir.mkdir(exist_ok=True)
@@ -71,8 +69,6 @@ class Documentation:
         print("Done")
 
         self._extractReleaseInfo()
-
-        return
 
     def writeDocsCopy(self):
         """Write a copy of the documentation to the correct output
@@ -98,8 +94,6 @@ class Documentation:
         self._buildPdfManual()
         self._rewriteIndex(docsDst / "index.rst")
         self._createPdfPage()
-
-        return
 
     ##
     #  Internal Functions
@@ -133,15 +127,18 @@ class Documentation:
                 cmd += f" -e SPHINXOPTS=\"-D language='{code}'\""
                 name = f"novelWriter-{code}"
 
-            if subprocess.call(cmd, cwd=docsDir, env=env, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT) == 0:
+            if (
+                subprocess.call(
+                    cmd, cwd=docsDir, env=env, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT
+                )
+                == 0
+            ):
                 newDoc = self._pdfPath / f"{name}-{vMaj}.{vMin}.pdf"
                 newDoc.unlink(missing_ok=True)
                 pdfFile.rename(newDoc)
                 print("Done")
             else:
                 print("FAILED")
-
-        return
 
     def _createPdfPage(self):
         """Create the index of PDF manuals."""
@@ -171,19 +168,21 @@ class Documentation:
                 specPdfEn.append(pdf)
 
         with open(self._pdfPath / "index.rst", mode="w", encoding="utf-8") as of:
-            of.write((self._tplPath / "more_docs.rst").read_text(encoding="utf-8").format(
-                doc_pdfs="\n".join(f"| :download:`{pdf}`" for pdf in docsPdfEn),
-                doc_pdfs_i18n="\n".join(f"| :download:`{pdf}`" for pdf in docsPdfTr),
-                spec_pdfs="\n".join(f"| :download:`{pdf}`" for pdf in specPdfEn),
-            ))
-
-        return
+            of.write(
+                (self._tplPath / "more_docs.rst")
+                .read_text(encoding="utf-8")
+                .format(
+                    doc_pdfs="\n".join(f"| :download:`{pdf}`" for pdf in docsPdfEn),
+                    doc_pdfs_i18n="\n".join(f"| :download:`{pdf}`" for pdf in docsPdfTr),
+                    spec_pdfs="\n".join(f"| :download:`{pdf}`" for pdf in specPdfEn),
+                )
+            )
 
     def _rewriteIndex(self, indexFile: Path):
         """Rewrite the index file with updated information."""
         relVersion = f"{self._nwMajor}.{self._nwMinor}"
         relDateStr = datetime.fromisoformat(self._nwDate).strftime("%A, %-d %B %Y")
-        nowDateStr = datetime.now().strftime("%A, %-d %B %Y")
+        nowDateStr = datetime.now(tz=LOCAL_TZ).strftime("%A, %-d %B %Y")
 
         if self._nwDev.startswith("alpha"):
             relVersionStr = f"{relVersion} (Development)"
@@ -223,11 +222,9 @@ class Documentation:
                 indexBuffer += indexLines[n:]
                 break
         else:
-            raise Exception(f"Could not find beginning of body text in {indexFile}")
+            raise RuntimeError(f"Could not find beginning of body text in {indexFile}")
 
         indexFile.write_text("\n".join(indexBuffer), encoding="utf-8")
-
-        return
 
     def _extractReleaseInfo(self):
         """Extract information about the release version and date."""
@@ -245,7 +242,7 @@ class Documentation:
                 if foundV and foundD:
                     break
             else:
-                raise Exception("Could not find release version and date")
+                raise RuntimeError("Could not find release version and date")
 
         version, _, dev = self._nwRelease.partition("-")
         if "a" in version:
@@ -265,5 +262,3 @@ class Documentation:
             self._nwPatch = int(bits[2])
 
         print("Done")
-
-        return

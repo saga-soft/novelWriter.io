@@ -4,7 +4,7 @@
 Installing on Windows
 *********************
 
-.. _GitHub Releases: https://github.com/vkbo/novelWriter/releases
+.. _GitHub Releases: https://github.com/saga-soft/novelWriter/releases
 .. _SHA256: https://en.wikipedia.org/wiki/SHA-2
 .. _SignPath.io: https://about.signpath.io/
 .. _SignPath Foundation: https://signpath.org/

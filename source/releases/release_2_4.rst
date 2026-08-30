@@ -163,12 +163,12 @@ if the Manuscript tool is closed. There is a very low chance to hit this moment,
 Download Links
 ==============
 
-Past release packages are available for download on `GitHub <https://github.com/vkbo/novelWriter/releases>`__.
+Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
-| :octicon:`mark-github` `Download Release 2.4.4 <https://github.com/vkbo/novelWriter/releases/tag/v2.4.4>`__
-| :octicon:`mark-github` `Download Release 2.4.3 <https://github.com/vkbo/novelWriter/releases/tag/v2.4.3>`__
-| :octicon:`mark-github` `Download Release 2.4.2 <https://github.com/vkbo/novelWriter/releases/tag/v2.4.2>`__
-| :octicon:`mark-github` `Download Release 2.4.1 <https://github.com/vkbo/novelWriter/releases/tag/v2.4.1>`__
-| :octicon:`mark-github` `Download Release 2.4 <https://github.com/vkbo/novelWriter/releases/tag/v2.4>`__
-| :octicon:`mark-github` `Download Release 2.4 RC 1 <https://github.com/vkbo/novelWriter/releases/tag/v2.4rc1>`__
-| :octicon:`mark-github` `Download Release 2.4 Beta 1 <https://github.com/vkbo/novelWriter/releases/tag/v2.4b1>`__
+| :octicon:`mark-github` `Download Release 2.4.4 <https://github.com/saga-soft/novelWriter/releases/tag/v2.4.4>`__
+| :octicon:`mark-github` `Download Release 2.4.3 <https://github.com/saga-soft/novelWriter/releases/tag/v2.4.3>`__
+| :octicon:`mark-github` `Download Release 2.4.2 <https://github.com/saga-soft/novelWriter/releases/tag/v2.4.2>`__
+| :octicon:`mark-github` `Download Release 2.4.1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.4.1>`__
+| :octicon:`mark-github` `Download Release 2.4 <https://github.com/saga-soft/novelWriter/releases/tag/v2.4>`__
+| :octicon:`mark-github` `Download Release 2.4 RC 1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.4rc1>`__
+| :octicon:`mark-github` `Download Release 2.4 Beta 1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.4b1>`__

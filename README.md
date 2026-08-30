@@ -5,7 +5,7 @@
 This is the source repository for the [novelWriter.io](https://novelwriter.io) website.
 
 If you want to submit corrections to the documentation, that needs to be done on the main
-[novelWriter Repository](https://github.com/vkbo/novelWriter). The documentation is located in the
+[novelWriter Repository](https://github.com/saga-soft/novelWriter). The documentation is located in the
 `docs` folder.
 
 The documentation in this repository is just a copy, and is overwritten from the main application

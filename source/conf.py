@@ -4,9 +4,11 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 import json
-
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
+LOCAL_TZ = ZoneInfo("Europe/Oslo")
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
@@ -19,7 +21,7 @@ if setFile.exists():
         release = settings.get("docVersion", "Unknown")
 
 project = "novelWriter"
-copyright = f"2018–{datetime.now().year} Veronica Berglyd Olsen"
+copyright = f"2018–{datetime.now(tz=LOCAL_TZ).year} Veronica Berglyd Olsen"
 author = "Veronica Berglyd Olsen"
 version = release
 
@@ -47,7 +49,7 @@ html_css_files = ["custom.css"]
 html_show_sourcelink = False
 html_context = {
     "default_mode": "auto",
-    "build_time": datetime.now().strftime("%Y-%m-%d %H:%M"),
+    "build_time": datetime.now(tz=LOCAL_TZ).strftime("%Y-%m-%d %H:%M"),
 }
 html_sidebars = {
     "**": ["sidebar-logo", "sidebar-nav-bs"],
@@ -70,26 +72,30 @@ html_theme_options = {
     },
     "header_links_before_dropdown": 8,
     "external_links": [
-        {"name": "Issues", "url": "https://github.com/vkbo/novelWriter/issues"},
-        {"name": "Discussions", "url": "https://github.com/vkbo/novelWriter/discussions"},
+        {"name": "Issues", "url": "https://github.com/saga-soft/novelWriter/issues"},
+        {"name": "Discussions", "url": "https://github.com/saga-soft/novelWriter/discussions"},
         {"name": "Donate", "url": "https://ko-fi.com/jadzia626"},
     ],
     "pygments_light_style": "tango",
     "pygments_dark_style": "dracula",
     "icon_links_label": "Quick Links",
-    "icon_links": [{
-        "name": "Mastodon",
-        "url": "https://fosstodon.org/@novelwriter",
-        "icon": "fa-brands fa-mastodon",
-    }, {
-        "name": "GitHub",
-        "url": "https://github.com/vkbo/novelwriter",
-        "icon": "fa-brands fa-github",
-    }, {
-        "name": "PyPi",
-        "url": "https://pypi.org/project/novelWriter",
-        "icon": "fa-solid fa-box",
-    }],
+    "icon_links": [
+        {
+            "name": "Mastodon",
+            "url": "https://fosstodon.org/@novelwriter",
+            "icon": "fa-brands fa-mastodon",
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/saga-soft/novelwriter",
+            "icon": "fa-brands fa-github",
+        },
+        {
+            "name": "PyPi",
+            "url": "https://pypi.org/project/novelWriter",
+            "icon": "fa-solid fa-box",
+        },
+    ],
 }
 
 # -- Extension settings ------------------------------------------------------
@@ -97,5 +103,5 @@ html_theme_options = {
 favicons = {
     "rel": "icon",
     "href": "novelwriter-icon.svg",
-    "type": "image/svg+xml"
+    "type": "image/svg+xml",
 }

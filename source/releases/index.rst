@@ -60,44 +60,44 @@ Release History
      - 2025-12-14
      - 2.8.2
      - 2026-01-25
-     - Past Release: `Download <https://github.com/vkbo/novelWriter/releases/tag/v2.8.2>`__
+     - Past Release: `Download <https://github.com/saga-soft/novelWriter/releases/tag/v2.8.2>`__
    * - :ref:`main_release_2_7`
      - 2025-06-01
      - 2.7.5
      - 2025-09-14
-     - Past Release: `Download <https://github.com/vkbo/novelWriter/releases/tag/v2.7.5>`__
+     - Past Release: `Download <https://github.com/saga-soft/novelWriter/releases/tag/v2.7.5>`__
    * - :ref:`main_release_2_6`
      - 2025-01-26
      - 2.6.3
      - 2025-02-16
-     - Past Release: `Download <https://github.com/vkbo/novelWriter/releases/tag/v2.6.3>`__
+     - Past Release: `Download <https://github.com/saga-soft/novelWriter/releases/tag/v2.6.3>`__
    * - :ref:`main_release_2_5`
      - 2024-07-10
      - 2.5.3
      - 2024-11-26
-     - Past Release: `Download <https://github.com/vkbo/novelWriter/releases/tag/v2.5.3>`__
+     - Past Release: `Download <https://github.com/saga-soft/novelWriter/releases/tag/v2.5.3>`__
    * - :ref:`main_release_2_4`
      - 2024-04-20
      - 2.4.4
      - 2024-06-12
-     - Past Release: `Download <https://github.com/vkbo/novelWriter/releases/tag/v2.4.4>`__
+     - Past Release: `Download <https://github.com/saga-soft/novelWriter/releases/tag/v2.4.4>`__
    * - :ref:`main_release_2_3`
      - 2024-03-10
      - 2.3.1
      - 2024-03-17
-     - Past Release: `Download <https://github.com/vkbo/novelWriter/releases/tag/v2.3.1>`__
+     - Past Release: `Download <https://github.com/saga-soft/novelWriter/releases/tag/v2.3.1>`__
    * - :ref:`main_release_2_2`
      - 2023-12-17
      - 2.2.1
      - 2024-01-27
-     - Past Release: `Download <https://github.com/vkbo/novelWriter/releases/tag/v2.2.1>`__
+     - Past Release: `Download <https://github.com/saga-soft/novelWriter/releases/tag/v2.2.1>`__
    * - :ref:`main_release_2_1`
      - 2023-10-17
      - 2.1.1
      - 2023-11-05
-     - Past Release: `Download <https://github.com/vkbo/novelWriter/releases/tag/v2.1.1>`__
+     - Past Release: `Download <https://github.com/saga-soft/novelWriter/releases/tag/v2.1.1>`__
    * - :ref:`main_release_2_0`
      - 2022-11-28
      - 2.0.7
      - 2023-04-16
-     - Past Release: `Download <https://github.com/vkbo/novelWriter/releases/tag/v2.0.7>`__
+     - Past Release: `Download <https://github.com/saga-soft/novelWriter/releases/tag/v2.0.7>`__

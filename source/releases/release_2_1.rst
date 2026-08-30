@@ -49,7 +49,7 @@ See the full changelog for more details.
 Download Links
 ==============
 
-Past release packages are available for download on `GitHub <https://github.com/vkbo/novelWriter/releases>`__.
+Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
-| :octicon:`mark-github` `Download Release 2.1.1 <https://github.com/vkbo/novelWriter/releases/tag/v2.1.1>`__
-| :octicon:`mark-github` `Download Release 2.1 <https://github.com/vkbo/novelWriter/releases/tag/v2.1>`__
+| :octicon:`mark-github` `Download Release 2.1.1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.1.1>`__
+| :octicon:`mark-github` `Download Release 2.1 <https://github.com/saga-soft/novelWriter/releases/tag/v2.1>`__

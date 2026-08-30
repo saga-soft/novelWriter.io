@@ -4,10 +4,10 @@
 Installing on Linux
 *******************
 
-.. _GitHub: https://github.com/vkbo/novelWriter
+.. _GitHub: https://github.com/saga-soft/novelWriter
 .. _PPA: https://launchpad.net/~vkbo/+archive/ubuntu/novelwriter
 .. _Pre-Release PPA: https://launchpad.net/~vkbo/+archive/ubuntu/novelwriter-pre
-.. _Releases: https://github.com/vkbo/novelWriter/releases
+.. _Releases: https://github.com/saga-soft/novelWriter/releases
 .. _AppImage: https://appimage.org/
 .. _Fedora repository: https://packages.fedoraproject.org/pkgs/novelwriter/novelwriter/
 
