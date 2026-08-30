@@ -4,12 +4,12 @@
 Code Signing Policy
 *******************
 
-.. _GitHub Releases: https://github.com/vkbo/novelWriter/releases
+.. _GitHub Releases: https://github.com/saga-soft/novelWriter/releases
 .. _SHA256: https://en.wikipedia.org/wiki/SHA-2
 .. _SignPath.io: https://about.signpath.io/
 .. _SignPath Foundation: https://signpath.org/
 .. _Veronica Berglyd Olsen: https://github.com/vkbo/
-.. _novelWriter Contributors: https://github.com/vkbo/novelWriter/graphs/contributors
+.. _novelWriter Contributors: https://github.com/saga-soft/novelWriter/graphs/contributors
 .. _Crowdin Member's Page: https://crowdin.com/project/novelwriter/members
 
 

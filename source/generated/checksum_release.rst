@@ -3,9 +3,9 @@ Checksum Files
 
 Checksum files are released alongside the packages. These files can be used to verify the downloaded package.
 
-* **Linux AppImage:** :octicon:`download` `Checksum File <https://github.com/vkbo/novelWriter/releases/download/v26.1.2/novelwriter-26.1.2-x86_64.AppImage.sha256>`__
-* **Debian Package:** :octicon:`download` `Checksum File <https://github.com/vkbo/novelWriter/releases/download/v26.1.2/novelwriter_26.1.2_all.deb.sha256>`__
-* **Windows Installer:** :octicon:`download` `Checksum File <https://github.com/vkbo/novelWriter/releases/download/v26.1.2/novelwriter-26.1.2-amd64-setup.exe.sha256>`__
+* **Linux AppImage:** :octicon:`download` `Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.1.2/novelwriter-26.1.2-x86_64.AppImage.sha256>`__
+* **Debian Package:** :octicon:`download` `Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.1.2/novelwriter_26.1.2_all.deb.sha256>`__
+* **Windows Installer:** :octicon:`download` `Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.1.2/novelwriter-26.1.2-amd64-setup.exe.sha256>`__
 
 .. rubric:: Verify the Checksum
 

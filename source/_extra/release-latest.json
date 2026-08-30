@@ -7,15 +7,17 @@
     "info": {
       "name": "2026.1 Patch 2",
       "date": "2026-07-25T17:33:33Z",
-      "url": "https://github.com/vkbo/novelWriter/releases/tag/v26.1.2",
+      "url": "https://github.com/saga-soft/novelWriter/releases/tag/v26.1.2",
       "assets": {
-        "appimage": "https://github.com/vkbo/novelWriter/releases/download/v26.1.2/novelwriter-26.1.2-x86_64.AppImage",
-        "debian": "https://github.com/vkbo/novelWriter/releases/download/v26.1.2/novelwriter_26.1.2_all.deb",
-        "winexe": "https://github.com/vkbo/novelWriter/releases/download/v26.1.2/novelwriter-26.1.2-amd64-setup.exe",
+        "appimage": "https://github.com/saga-soft/novelWriter/releases/download/v26.1.2/novelwriter-26.1.2-x86_64.AppImage",
+        "flatpak": "",
+        "debian": "https://github.com/saga-soft/novelWriter/releases/download/v26.1.2/novelwriter_26.1.2_all.deb",
+        "olddebian": "https://github.com/saga-soft/novelWriter/releases/download/v26.1.2/novelwriter_26.1.2-oldstable_all.deb",
+        "winexe": "https://github.com/saga-soft/novelWriter/releases/download/v26.1.2/novelwriter-26.1.2-amd64-setup.exe",
         "macx86": "",
         "macarm": "",
-        "zipball": "https://api.github.com/repos/vkbo/novelWriter/zipball/v26.1.2",
-        "tarball": "https://api.github.com/repos/vkbo/novelWriter/tarball/v26.1.2"
+        "zipball": "https://api.github.com/repos/saga-soft/novelWriter/zipball/v26.1.2",
+        "tarball": "https://api.github.com/repos/saga-soft/novelWriter/tarball/v26.1.2"
       }
     }
   }

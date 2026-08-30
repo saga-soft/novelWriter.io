@@ -197,6 +197,7 @@ Download Links
 
 Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
+| :octicon:`mark-github` `Download Release 2.7.5 <https://github.com/saga-soft/novelWriter/releases/tag/v2.7.5>`__
 | :octicon:`mark-github` `Download Release 2.7.4 <https://github.com/saga-soft/novelWriter/releases/tag/v2.7.4>`__
 | :octicon:`mark-github` `Download Release 2.7.3 <https://github.com/saga-soft/novelWriter/releases/tag/v2.7.3>`__
 | :octicon:`mark-github` `Download Release 2.7.2 <https://github.com/saga-soft/novelWriter/releases/tag/v2.7.2>`__

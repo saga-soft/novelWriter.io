@@ -23,8 +23,8 @@ Latest Release
             :padding: 0 0 2 0
 
             | **Download**
-            | :octicon:`download` `Linux AppImage <https://github.com/vkbo/novelWriter/releases/download/v26.1.2/novelwriter-26.1.2-x86_64.AppImage>`__
-            | :octicon:`download` `Debian Package <https://github.com/vkbo/novelWriter/releases/download/v26.1.2/novelwriter_26.1.2_all.deb>`__
+            | :octicon:`download` `Linux AppImage <https://github.com/saga-soft/novelWriter/releases/download/v26.1.2/novelwriter-26.1.2-x86_64.AppImage>`__
+            | :octicon:`download` `Debian Package <https://github.com/saga-soft/novelWriter/releases/download/v26.1.2/novelwriter_26.1.2_all.deb>`__
             | :octicon:`light-bulb` :ref:`Installation Help <main_install_linux>`
 
          .. grid-item::
@@ -49,7 +49,7 @@ Latest Release
             :padding: 0 0 2 0
 
             | **Download**
-            | :octicon:`download` `Setup Installer <https://github.com/vkbo/novelWriter/releases/download/v26.1.2/novelwriter-26.1.2-amd64-setup.exe>`__\*
+            | :octicon:`download` `Setup Installer <https://github.com/saga-soft/novelWriter/releases/download/v26.1.2/novelwriter-26.1.2-amd64-setup.exe>`__\*
             | :octicon:`light-bulb` :ref:`Installation Help <main_install_windows>`
 
          .. grid-item::
