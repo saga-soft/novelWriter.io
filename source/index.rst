@@ -2,6 +2,7 @@
 
 .. _SignPath.io: https://about.signpath.io/
 .. _SignPath Foundation: https://signpath.org/
+.. _Cloudsmith: https://cloudsmith.com/
 
 .. div:: main-page-icon
 
@@ -56,6 +57,7 @@ novelWriter
 .. include:: generated/download_main.rst
 
 | \* Code signing on Windows is sponsored by `SignPath.io`_, certificate by the `SignPath Foundation`_. See the :ref:`main_install_signing`.
+| \*\* Free package repository hosting is graciously provided by Cloudsmith_.
 
 .. grid:: 2
    :margin: 0
@@ -86,8 +88,12 @@ Other Install Options
 .. _PPA: https://launchpad.net/~vkbo/+archive/ubuntu/novelwriter
 .. _Pre-Release PPA: https://launchpad.net/~vkbo/+archive/ubuntu/novelwriter-pre
 .. _Python Package Index: https://pypi.org/project/novelWriter/
+.. _Linux Repo: https://broadcasts.cloudsmith.com/saga-soft
 
 .. |ubuntu-logo| image:: images/ubuntu.svg
+   :class: dark-light custom-inline-image-tall
+
+.. |linux-logo| image:: images/linux.svg
    :class: dark-light custom-inline-image-tall
 
 .. |pypi-logo| image:: images/pypi.svg
@@ -95,7 +101,7 @@ Other Install Options
 
 .. |fedora-logo| image:: images/fedora.svg
    :class: dark-light custom-inline-image-tall
-
+      
 
 .. grid:: 2
    :margin: 0
@@ -116,9 +122,11 @@ Other Install Options
             :padding: 0
 
             .. code-block:: bash
-               :caption: |ubuntu-logo| Add the Ubuntu PPA_ to your system
+               :caption: |linux-logo| Add the `Linux Repo`_ provided by Cloudsmith_ (:ref:`Help <main_install_linux_native>`).
 
-               sudo add-apt-repository ppa:vkbo/novelwriter
+               curl -sLf \
+                 'https://dl.cloudsmith.io/public/saga-soft/stable/cfg/setup/bash.deb.sh' \
+                 | sudo bash
                sudo apt update
                sudo apt install novelwriter
 
@@ -127,7 +135,7 @@ Other Install Options
             :padding: 0
 
             .. code-block:: bash
-               :caption: |pypi-logo| Install from the `Python Package Index`_ (:ref:`Install Help <main_install_pypi>`)
+               :caption: |pypi-logo| Install from the `Python Package Index`_ (:ref:`Help <main_install_pypi>`)
 
                pipx install novelwriter
 
@@ -149,9 +157,21 @@ Other Install Options
 
                sudo dnf install novelwriter
 
-            *Note that the Fedora package is maintained by Fedora package managers and will have a delayed release cycle.*
+
+         .. grid-item::
+            :margin: 0
+            :padding: 0
+
+            .. code-block:: bash
+               :caption: |ubuntu-logo| Add the Ubuntu PPA_ (Deprecated)
+
+               sudo add-apt-repository ppa:vkbo/novelwriter
+               sudo apt update
+               sudo apt install novelwriter
 
 
+* The Fedora package is maintained by Fedora package managers and will have a delayed release cycle.
 * For more download options, including pre-releases and checksum files, see the :ref:`main_download` page.
+* The Ubuntu PPA is deprecated and will soon stop receiving updates. Please migrate to the Cloudsmith repository.
 * You can also use the Ubuntu PPA on other Debian-based distros. See :ref:`main_install_linux` for more details.
 * Ubuntu pre-releases are available on the `Pre-Release PPA`_, by adding ``ppa:vkbo/novelwriter-pre`` instead.

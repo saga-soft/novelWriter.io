@@ -8,18 +8,19 @@ Releases
    :caption: Latest Release
    :hidden:
 
-   release_26_1
+   release_26_2
 
 .. toctree::
    :caption: Next Release
    :hidden:
 
-   release_26_2
+   release_26_3
 
 .. toctree::
    :caption: Previous Releases
    :hidden:
 
+   release_26_1
    release_2_8
    release_2_7
    release_2_6
@@ -51,11 +52,16 @@ Release History
      - Latest Patch
      - Patch Date
      - Status
+   * - :ref:`main_release_26_2`
+     - 2026-09-05
+     - N/A
+     - N/A
+     - Latest Release: :ref:`Download <main_download>`
    * - :ref:`main_release_26_1`
      - 2026-04-26
      - 2026.1.2
      - 2026-07-25
-     - Latest Release: :ref:`Download <main_download>`
+     - Past Release: `Download <https://github.com/saga-soft/novelWriter/releases/tag/v26.1.2>`__
    * - :ref:`main_release_2_8`
      - 2025-12-14
      - 2.8.2

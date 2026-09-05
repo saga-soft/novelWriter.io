@@ -24,7 +24,8 @@ Latest Release
 
             | **Download**
             | :octicon:`download` `Linux AppImage <{appimage_download}>`__
-            | :octicon:`download` `Debian Package <{debian_download}>`__
+            | :octicon:`download` `Flatpak <{flatpak_download}>`__
+            | :octicon:`package` :ref:`Package Repositories <main_install_linux_native>`\*\*
             | :octicon:`light-bulb` :ref:`Installation Help <main_install_linux>`
 
          .. grid-item::

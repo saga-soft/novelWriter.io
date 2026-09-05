@@ -4,7 +4,7 @@ Checksum Files
 Checksum files are released alongside the packages. These files can be used to verify the downloaded package.
 
 * **Linux AppImage:** :octicon:`download` `Checksum File <{appimage_shasumfile}>`__
-* **Debian Package:** :octicon:`download` `Checksum File <{debian_shasumfile}>`__
+* **Linux Flatpak:** :octicon:`download` `Checksum File <{flatpak_shasumfile}>`__
 * **Windows Installer:** :octicon:`download` `Checksum File <{winexe_shasumfile}>`__
 
 .. rubric:: Verify the Checksum
@@ -19,7 +19,7 @@ Checksum files are released alongside the packages. These files can be used to v
       .. code-block:: bash
 
          shasum -c {appimage_name}.sha256
-         shasum -c {debian_name}.sha256
+         shasum -c {flatpak_name}.sha256
 
    .. tab-item:: Windows
 

@@ -1,4 +1,3 @@
-.. _main_release_latest:
 .. _main_release_26_1:
 
 **************
@@ -99,17 +98,12 @@ taskbar icon on Windows, and fixes a font setting that failed to load on older v
 translations have also been updated.
 
 
-Download Links
-==============
-
-.. include:: ../generated/download_release.rst
-
-
 Older Releases
 ==============
 
 Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
+| :octicon:`mark-github` `Download Release 26.1.2 <https://github.com/saga-soft/novelWriter/releases/tag/v26.1.2>`__
 | :octicon:`mark-github` `Download Release 26.1.1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.1.1>`__
 | :octicon:`mark-github` `Download Release 26.1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.1>`__
 | :octicon:`mark-github` `Download Release 26.1 RC 1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.1rc1>`__

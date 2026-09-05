@@ -6,6 +6,8 @@
 .. _novelWriter Repository: https://github.com/saga-soft/novelWriter/
 .. _SignPath.io: https://about.signpath.io/
 .. _SignPath Foundation: https://signpath.org/
+.. _PyPi: https://pypi.org/project/novelWriter/
+.. _Cloudsmith: https://cloudsmith.com/
 
 | **Release Version:** {release_version}
 | **Release Date:** {release_date}
@@ -48,18 +50,18 @@ Flatpak (Experimental)
    :bdg-link-primary-line:`Checksum File <{flatpak_shasumfile}>`
 
 
-Debian Package
-^^^^^^^^^^^^^^
+Debian Packages
+^^^^^^^^^^^^^^^
 
 .. card::
 
-   These packages are built for Debian_, but should also work for newer Ubuntu_, `Linux Mint`_ and other Debian-based
-   distros. The "oldstable" version is needed for Debian Bookworm, Ubuntu 24.04, and distros of a similar age.
+   Packages for Debian_, Ubuntu_ and `Linux Mint`_ can be downloaded from the Cloudsmith repository.
 
-   | :octicon:`download` `{debian_name} <{debian_url}>`__ [{debian_size}]
-     :bdg-link-primary-line:`Checksum File <{debian_shasumfile}>` :bdg-warning-line:`Trixie, Ubuntu 25.10+`
-   | :octicon:`download` `{debian_old_name} <{debian_old_url}>`__ [{debian_old_size}]
-     :bdg-link-primary-line:`Checksum File <{debian_old_shasumfile}>` :bdg-warning-line:`Bookworm, Ubuntu 24.04`
+   | :octicon:`package` `Saga-Soft Repository ({cloudsmith_repo}) <{cloudsmith_url}>`__
+
+   See :ref:`main_install_linux` for more details.
+
+   Free package repository hosting is graciously provided by Cloudsmith_.
 
 
 Windows |windows10-logo|
@@ -86,10 +88,13 @@ Python Wheel
 
 .. card::
 
-   A standard Python wheel package is available for installation via pip.
+   A standard Python wheel package is available for installation from PyPi_.
 
-   :octicon:`download` `{wheel_name} <{wheel_url}>`__ [{wheel_size}]
-   :bdg-link-primary-line:`Checksum File <{wheel_shasumfile}>`
+   .. code-block:: bash
+
+      pipx install novelwriter=={short_version}
+
+   See :ref:`main_install_pypi` for more details.
 
 
 Source Code

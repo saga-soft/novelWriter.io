@@ -13,6 +13,8 @@ from pathlib import Path
 
 from tools import AssetType, Documentation, DownloadAssets
 
+CLOUDSMITH_URL = "https://broadcasts.cloudsmith.com/saga-soft"
+
 
 def stripVersion(version: str) -> str:
     """Strip the pre-release part from a version number."""
@@ -212,12 +214,9 @@ def pullRelease(args):
 
     aAppImg = assets.getAsset(AssetType.APP_IMAGE)
     aFlatpk = assets.getAsset(AssetType.FLATPAK)
-    aDebian = assets.getAsset(AssetType.DEBIAN)
-    aDebOld = assets.getAsset(AssetType.DEBIAN_OLD)
     aWinExe = assets.getAsset(AssetType.WINDOWS_EXE)
     aMacAMD = assets.getAsset(AssetType.MAC_DMG_INTEL)
     aMacARM = assets.getAsset(AssetType.MAC_DMG_ARM)
-    aPWheel = assets.getAsset(AssetType.PYTHON_WHEEL)
 
     if isPreRelease:
         # Updating Pre-Release Info
@@ -230,6 +229,8 @@ def pullRelease(args):
                 "release_url": releaseUrl,
                 "release_ref": releaseRef,
                 "discuss_url": discussUrl,
+                "cloudsmith_url": f"{CLOUDSMITH_URL}/testing",
+                "cloudsmith_repo": "Testing",
                 "appimage_name": aAppImg.assetName,
                 "appimage_url": aAppImg.assetUrl,
                 "appimage_size": aAppImg.assetSizeString,
@@ -238,14 +239,6 @@ def pullRelease(args):
                 "flatpak_url": aFlatpk.assetUrl,
                 "flatpak_size": aFlatpk.assetSizeString,
                 "flatpak_shasumfile": aFlatpk.assetShaSumUrl,
-                "debian_name": aDebian.assetName,
-                "debian_url": aDebian.assetUrl,
-                "debian_size": aDebian.assetSizeString,
-                "debian_shasumfile": aDebian.assetShaSumUrl,
-                "debian_old_name": aDebOld.assetName,
-                "debian_old_url": aDebOld.assetUrl,
-                "debian_old_size": aDebOld.assetSizeString,
-                "debian_old_shasumfile": aDebOld.assetShaSumUrl,
                 "winexe_name": aWinExe.assetName,
                 "winexe_url": aWinExe.assetUrl,
                 "winexe_size": aWinExe.assetSizeString,
@@ -258,10 +251,6 @@ def pullRelease(args):
                 "macarm_url": aMacARM.assetUrl,
                 "macarm_size": aMacARM.assetSizeString,
                 "macarm_shasumfile": aMacARM.assetShaSumUrl,
-                "wheel_name": aPWheel.assetName,
-                "wheel_url": aPWheel.assetUrl,
-                "wheel_size": aPWheel.assetSizeString,
-                "wheel_shasumfile": aPWheel.assetShaSumUrl,
                 "short_version": shortVersion,
                 "zip_url": zipBall,
                 "tar_url": tarBall,
@@ -274,8 +263,8 @@ def pullRelease(args):
             {
                 "appimage_name": aAppImg.assetName,
                 "appimage_shasumfile": aAppImg.assetShaSumUrl,
-                "debian_name": aDebian.assetName,
-                "debian_shasumfile": aDebian.assetShaSumUrl,
+                "flatpak_name": aFlatpk.assetName,
+                "flatpak_shasumfile": aFlatpk.assetShaSumUrl,
                 "winexe_name": aWinExe.assetName,
                 "winexe_shasumfile": aWinExe.assetShaSumUrl,
                 "macx86_name": aMacAMD.assetName,
@@ -297,8 +286,6 @@ def pullRelease(args):
                 "assets": {
                     "appimage": aAppImg.assetUrl,
                     "flatpak": aFlatpk.assetUrl,
-                    "debian": aDebian.assetUrl,
-                    "olddebian": aDebOld.assetUrl,
                     "winexe": aWinExe.assetUrl,
                     "macx86": aMacAMD.assetUrl,
                     "macarm": aMacARM.assetUrl,
@@ -317,7 +304,7 @@ def pullRelease(args):
                 "release_date": releaseDateFmt,
                 "release_ref": releaseRef,
                 "appimage_download": aAppImg.assetUrl,
-                "debian_download": aDebian.assetUrl,
+                "flatpak_download": aFlatpk.assetUrl,
                 "winexe_download": aWinExe.assetUrl,
                 "macx86_download": aMacAMD.assetUrl,
                 "macarm_download": aMacARM.assetUrl,
@@ -330,8 +317,8 @@ def pullRelease(args):
             {
                 "appimage_name": aAppImg.assetName,
                 "appimage_shasumfile": aAppImg.assetShaSumUrl,
-                "debian_name": aDebian.assetName,
-                "debian_shasumfile": aDebian.assetShaSumUrl,
+                "flatpak_name": aFlatpk.assetName,
+                "flatpak_shasumfile": aFlatpk.assetShaSumUrl,
                 "winexe_name": aWinExe.assetName,
                 "winexe_shasumfile": aWinExe.assetShaSumUrl,
                 "macx86_name": aMacAMD.assetName,
@@ -350,18 +337,16 @@ def pullRelease(args):
                 "release_url": releaseUrl,
                 "release_ref": releaseRef,
                 "discuss_url": discussUrl,
+                "cloudsmith_url": f"{CLOUDSMITH_URL}/stable",
+                "cloudsmith_repo": "Stable",
                 "appimage_name": aAppImg.assetName,
                 "appimage_url": aAppImg.assetUrl,
                 "appimage_size": aAppImg.assetSizeString,
                 "appimage_shasumfile": aAppImg.assetShaSumUrl,
-                "debian_name": aDebian.assetName,
-                "debian_url": aDebian.assetUrl,
-                "debian_size": aDebian.assetSizeString,
-                "debian_shasumfile": aDebian.assetShaSumUrl,
-                "debian_old_name": aDebOld.assetName,
-                "debian_old_url": aDebOld.assetUrl,
-                "debian_old_size": aDebOld.assetSizeString,
-                "debian_old_shasumfile": aDebOld.assetShaSumUrl,
+                "flatpak_name": aFlatpk.assetName,
+                "flatpak_url": aFlatpk.assetUrl,
+                "flatpak_size": aFlatpk.assetSizeString,
+                "flatpak_shasumfile": aFlatpk.assetShaSumUrl,
                 "winexe_name": aWinExe.assetName,
                 "winexe_url": aWinExe.assetUrl,
                 "winexe_size": aWinExe.assetSizeString,
@@ -374,10 +359,6 @@ def pullRelease(args):
                 "macarm_url": aMacARM.assetUrl,
                 "macarm_size": aMacARM.assetSizeString,
                 "macarm_shasumfile": aMacARM.assetShaSumUrl,
-                "wheel_name": aPWheel.assetName,
-                "wheel_url": aPWheel.assetUrl,
-                "wheel_size": aPWheel.assetSizeString,
-                "wheel_shasumfile": aPWheel.assetShaSumUrl,
                 "short_version": shortVersion,
                 "zip_url": zipBall,
                 "tar_url": tarBall,

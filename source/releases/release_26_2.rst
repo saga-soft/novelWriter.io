@@ -1,10 +1,11 @@
+.. _main_release_latest:
 .. _main_release_26_2:
 
-***********************
-Pre-Release 2026.2 RC 1
-***********************
+**************
+Release 2026.2
+**************
 
-| **Release Date:** 9 August, 2026
+| **Release Date:** 5 September, 2026
 
 
 Release Notes
@@ -13,11 +14,6 @@ Release Notes
 This release adds project writing goals with daily progress tracking, and a much improved project search with new
 filters. There are also new manuscript tools, including EPUB export and dialogue statistics, and several new features
 for the text editor, such as hover cards, zoom, and adjustable line height.
-
-.. attention::
-
-   This is a release candidate of the next release version, and is intended for testing purposes. Please be careful when
-   using this version on live writing projects, and make sure you take frequent backups.
 
 .. attention::
 
@@ -122,7 +118,7 @@ Other Changes
 Download Links
 ==============
 
-.. include:: ../generated/download_pre_release.rst
+.. include:: ../generated/download_release.rst
 
 
 Older Releases
@@ -130,5 +126,6 @@ Older Releases
 
 Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
+| :octicon:`mark-github` `Download Release 26.2 RC 1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2rc1>`__
 | :octicon:`mark-github` `Download Release 26.2 Beta 2 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2b2>`__
 | :octicon:`mark-github` `Download Release 26.2 Beta 1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2b1>`__
