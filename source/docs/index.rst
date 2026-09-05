@@ -4,11 +4,11 @@
 Documentation
 *************
 
-| **Release Version:** 26.1.2
-| **Release Date:** Saturday, 25 July 2026
-| **Docs Updated:** Saturday, 25 July 2026
+| **Release Version:** 26.2
+| **Release Date:** Saturday, 5 September 2026
+| **Docs Updated:** Saturday, 5 September 2026
 
-**PDF:** :download:`novelWriter-26.1.pdf <../more/novelWriter-26.1.pdf>` [ :ref:`Other Versions <more_docs>` ]
+**PDF:** :download:`novelWriter-26.2.pdf <../more/novelWriter-26.2.pdf>` [ :ref:`Other Versions <more_docs>` ]
 
 novelWriter is an open source plain text editor designed for writing novels assembled from
 individual text documents. It uses a minimal formatting syntax inspired by Markdown, and adds a
@@ -27,10 +27,10 @@ storage for robustness.
 * Documentation: https://docs.novelwriter.io
 * Public Releases: https://releases.novelwriter.io
 * Internationalisation: https://crowdin.com/project/novelwriter
-* Source Code: https://github.com/vkbo/novelWriter
-* Source Releases: https://github.com/vkbo/novelWriter/releases
-* Issue Tracker: https://github.com/vkbo/novelWriter/issues
-* Feature Discussions: https://github.com/vkbo/novelWriter/discussions
+* Source Code: https://github.com/saga-soft/novelWriter
+* Source Releases: https://github.com/saga-soft/novelWriter/releases
+* Issue Tracker: https://github.com/saga-soft/novelWriter/issues
+* Feature Discussions: https://github.com/saga-soft/novelWriter/discussions
 * PyPi Project: https://pypi.org/project/novelWriter
 * Social Media: https://fosstodon.org/@novelwriter
 
@@ -64,6 +64,7 @@ storage for robustness.
    user_interface/editor_viewer
    user_interface/split_and_merge
    user_interface/manuscript
+   user_interface/formatting
    user_interface/statistics
 
 .. toctree::
