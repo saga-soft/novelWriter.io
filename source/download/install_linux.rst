@@ -45,16 +45,10 @@ If you also want to receive pre-release versions, run the following command:
 
 You can have both set up at the same time.
 
-**Other Debian-Based Distros**
+You can browse the available packages on the Cloudsmith repository:
 
-If there is no dedicated package for your Debian-based distro, you can try installing the package for the closest
-supported version by specifying those on the last line of the above commands:
-
-.. code-block:: bash
-
-   curl -sLf \
-     'https://dl.cloudsmith.io/public/saga-soft/stable/cfg/setup/bash.deb.sh' \
-     | sudo distro=DISTRO codename=VERSION bash
+| :octicon:`link` Releases: `<https://broadcasts.cloudsmith.com/saga-soft/stable>`__
+| :octicon:`link` Pre-Releases: `<https://broadcasts.cloudsmith.com/saga-soft/testing>`__
 
 
 Installing novelWriter
@@ -65,6 +59,19 @@ After the repository is set up, you can install novelWriter with the following c
 .. code-block:: bash
 
    sudo apt update && sudo apt install novelwriter
+
+
+Other Debian-Based Distros
+--------------------------
+
+If there is no dedicated package for your Debian-based distro, you can try installing the package for the closest
+supported version by specifying those on the last line of the above commands:
+
+.. code-block:: bash
+
+   curl -sLf \
+     'https://dl.cloudsmith.io/public/saga-soft/stable/cfg/setup/bash.deb.sh' \
+     | sudo distro=DISTRO codename=VERSION bash
 
 
 .. _main_install_linux_fedora:
