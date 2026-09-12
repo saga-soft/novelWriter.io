@@ -23,8 +23,14 @@ Debian Linux Packages
 Free package repository hosting is graciously provided by Cloudsmith_.
 
 The Cloudsmith  repository contains native Linux packages for distros that have compatible system libraries for running
-novelWriter. Currently supported are Debian 12 (Bookworm) and later, Ubuntu 24.04 (Noble) and later, Linux Mint 22
-(Wilma) and later.
+novelWriter. This list will be extended over time, but for now, the following distros are supported:
+
+* Debian 12 (Bookworm) and later
+* Ubuntu 24.04 (Noble) and later
+* Linux Mint 22 (Wilma) and later
+
+For other Debian-based distros, you can try installing the package for the closest supported version.
+See :ref:`main_install_linux_debian_other` below for more details on how to set this up.
 
 To add the package repositories to your local system, run the following command in a terminal:
 
@@ -60,6 +66,8 @@ After the repository is set up, you can install novelWriter with the following c
 
    sudo apt update && sudo apt install novelwriter
 
+
+.. _main_install_linux_debian_other:
 
 Other Debian-Based Distros
 --------------------------
