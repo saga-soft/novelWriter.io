@@ -21,7 +21,7 @@ if setFile.exists():
         release = settings.get("docVersion", "Unknown")
 
 project = "novelWriter"
-copyright = f"2018–{datetime.now(tz=LOCAL_TZ).year} Veronica Berglyd Olsen"
+copyright = f"2018–{datetime.now(tz=LOCAL_TZ).year} The Saga Software Project"
 author = "Veronica Berglyd Olsen"
 version = release
 
