@@ -1,7 +1,7 @@
 Latest Release
 ==============
 
-**Version 2026.2** -- Released on September 5, 2026 -- Read the :ref:`Release Notes <main_release_26_2>`
+**Version 2026.2 Patch 1** -- Released on September 26, 2026 -- Read the :ref:`Release Notes <main_release_26_2>`
 
 .. grid:: 2
    :margin: 4 4 0 0
@@ -23,8 +23,8 @@ Latest Release
             :padding: 0 0 2 0
 
             | **Download**
-            | :octicon:`download` `Linux AppImage <https://github.com/saga-soft/novelWriter/releases/download/v26.2/novelwriter-26.2-x86_64.AppImage>`__
-            | :octicon:`download` `Flatpak <https://github.com/saga-soft/novelWriter/releases/download/v26.2/novelwriter-26.2-linux.flatpak>`__
+            | :octicon:`download` `Linux AppImage <https://github.com/saga-soft/novelWriter/releases/download/v26.2.1/novelwriter-26.2.1-x86_64.AppImage>`__
+            | :octicon:`download` `Flatpak <https://github.com/saga-soft/novelWriter/releases/download/v26.2.1/novelwriter-26.2.1-linux.flatpak>`__
             | :octicon:`package` :ref:`Package Repositories <main_install_linux_native>`\*\*
             | :octicon:`light-bulb` :ref:`Installation Help <main_install_linux>`
 
@@ -50,7 +50,7 @@ Latest Release
             :padding: 0 0 2 0
 
             | **Download**
-            | :octicon:`download` `Setup Installer <https://github.com/saga-soft/novelWriter/releases/download/v26.2/novelwriter-26.2-amd64-setup.exe>`__\*
+            | :octicon:`download` `Setup Installer <https://github.com/saga-soft/novelWriter/releases/download/v26.2.1/novelwriter-26.2.1-amd64-setup.exe>`__\*
             | :octicon:`light-bulb` :ref:`Installation Help <main_install_windows>`
 
          .. grid-item::

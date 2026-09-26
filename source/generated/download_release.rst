@@ -9,11 +9,11 @@
 .. _PyPi: https://pypi.org/project/novelWriter/
 .. _Cloudsmith: https://cloudsmith.com/
 
-| **Release Version:** 2026.2
-| **Release Date:** September 5, 2026
+| **Release Version:** 2026.2 Patch 1
+| **Release Date:** September 26, 2026
 | **Release Notes:** :ref:`main_release_26_2`
-| **Release Feedback:** :octicon:`comment-discussion` `Discussion <https://github.com/orgs/saga-soft/discussions/3005>`__
-| **Release on GitHub:** :octicon:`mark-github` `GitHub <https://github.com/saga-soft/novelWriter/releases/tag/v26.2>`__
+| **Release Feedback:** :octicon:`comment-discussion` `Discussion <https://github.com/saga-soft/novelWriter/discussions/3034>`__
+| **Release on GitHub:** :octicon:`mark-github` `GitHub <https://github.com/saga-soft/novelWriter/releases/tag/v26.2.1>`__
 
 .. |linux-logo| image:: ../images/linux.svg
    :class: dark-light custom-inline-image-title
@@ -35,8 +35,8 @@ AppImage
 
    The AppImage_ should run on any recent Linux distro.
 
-   :octicon:`download` `novelwriter-26.2-x86_64.AppImage <https://github.com/saga-soft/novelWriter/releases/download/v26.2/novelwriter-26.2-x86_64.AppImage>`__ [83.8 MB]
-   :bdg-link-primary-line:`Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.2/novelwriter-26.2-x86_64.AppImage.sha256>`
+   :octicon:`download` `novelwriter-26.2.1-x86_64.AppImage <https://github.com/saga-soft/novelWriter/releases/download/v26.2.1/novelwriter-26.2.1-x86_64.AppImage>`__ [83.8 MB]
+   :bdg-link-primary-line:`Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.2.1/novelwriter-26.2.1-x86_64.AppImage.sha256>`
 
 
 Flatpak (Experimental)
@@ -46,8 +46,8 @@ Flatpak (Experimental)
 
    The Flatpak_ should run on any recent Linux distro.
 
-   :octicon:`download` `novelwriter-26.2-linux.flatpak <https://github.com/saga-soft/novelWriter/releases/download/v26.2/novelwriter-26.2-linux.flatpak>`__ [10.9 MB]
-   :bdg-link-primary-line:`Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.2/novelwriter-26.2-linux.flatpak.sha256>`
+   :octicon:`download` `novelwriter-26.2.1-linux.flatpak <https://github.com/saga-soft/novelWriter/releases/download/v26.2.1/novelwriter-26.2.1-linux.flatpak>`__ [11.0 MB]
+   :bdg-link-primary-line:`Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.2.1/novelwriter-26.2.1-linux.flatpak.sha256>`
 
 
 Debian Packages
@@ -74,8 +74,8 @@ Setup Installer
 
    This is a standard setup installer for Windows. It is made for Windows 10 or newer.
 
-   :octicon:`download` `novelwriter-26.2-amd64-setup.exe <https://github.com/saga-soft/novelWriter/releases/download/v26.2/novelwriter-26.2-amd64-setup.exe>`__ [103 MB]
-   :bdg-link-primary-line:`Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.2/novelwriter-26.2-amd64-setup.exe.sha256>`
+   :octicon:`download` `novelwriter-26.2.1-amd64-setup.exe <https://github.com/saga-soft/novelWriter/releases/download/v26.2.1/novelwriter-26.2.1-amd64-setup.exe>`__ [103 MB]
+   :bdg-link-primary-line:`Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.2.1/novelwriter-26.2.1-amd64-setup.exe.sha256>`
 
    Free code signing is provided by `SignPath.io`_, certificate by `SignPath Foundation`_.
 
@@ -92,7 +92,7 @@ Python Wheel
 
    .. code-block:: bash
 
-      pipx install novelwriter==26.2
+      pipx install novelwriter==26.2.1
 
    See :ref:`main_install_pypi` for more details.
 
@@ -104,8 +104,8 @@ Source Code
 
    The source code packages are archived files of the entire source code.
 
-   | :octicon:`download` `novelWriter-26.2.zip <https://api.github.com/repos/saga-soft/novelWriter/zipball/v26.2>`__
-   | :octicon:`download` `novelWriter-26.2.tar.gz <https://api.github.com/repos/saga-soft/novelWriter/tarball/v26.2>`__
+   | :octicon:`download` `novelWriter-26.2.1.zip <https://api.github.com/repos/saga-soft/novelWriter/zipball/v26.2.1>`__
+   | :octicon:`download` `novelWriter-26.2.1.tar.gz <https://api.github.com/repos/saga-soft/novelWriter/tarball/v26.2.1>`__
 
    See also the `novelWriter Repository`_.
 

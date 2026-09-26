@@ -6,6 +6,7 @@ Release 2026.2
 **************
 
 | **Release Date:** 5 September, 2026
+| **Patches:** :ref:`2026.2.1 <main_release_26_2_1>`
 
 
 Release Notes
@@ -115,6 +116,21 @@ Other Changes
   highlighting and spell checking to keep large documents responsive.
 
 
+Patch Releases
+==============
+
+.. _main_release_26_2_1:
+
+Patch 2026.2.1
+--------------
+
+**Release Date:** 26 September, 2026
+
+This is a patch release that fixes the tag hover card icons in the editor and viewer not updating when the app theme
+changed. It also adds build metadata used in crash reports and to warn users who installed via the now deprecated
+Launchpad PPA. French and Russian translations have been updated.
+
+
 Download Links
 ==============
 
@@ -126,6 +142,7 @@ Older Releases
 
 Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
+| :octicon:`mark-github` `Download Release 26.2 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2>`__
 | :octicon:`mark-github` `Download Release 26.2 RC 1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2rc1>`__
 | :octicon:`mark-github` `Download Release 26.2 Beta 2 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2b2>`__
 | :octicon:`mark-github` `Download Release 26.2 Beta 1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2b1>`__
