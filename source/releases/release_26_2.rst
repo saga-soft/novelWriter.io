@@ -126,9 +126,8 @@ Patch 2026.2.1
 
 **Release Date:** 26 September, 2026
 
-This is a patch release that fixes the tag hover card icons in the editor and viewer not updating when the app theme
-changed. It also adds build metadata used in crash reports and to warn users who installed via the now deprecated
-Launchpad PPA. French and Russian translations have been updated.
+This is a patch release that fixes a minor issue with the theme on the new hover cards. It also adds a warning to users
+who installed via the now deprecated Launchpad PPA. French and Russian translations have been updated.
 
 
 Download Links
