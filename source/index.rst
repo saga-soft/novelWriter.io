@@ -169,9 +169,8 @@ Other Install Options
                sudo apt update
                sudo apt install novelwriter
 
+**Notes**
 
 * The Fedora package is maintained by Fedora package managers and will have a delayed release cycle.
 * For more download options, including pre-releases and checksum files, see the :ref:`main_download` page.
 * The Ubuntu PPA is deprecated and will soon stop receiving updates. Please migrate to the Cloudsmith repository.
-* You can also use the Ubuntu PPA on other Debian-based distros. See :ref:`main_install_linux` for more details.
-* Ubuntu pre-releases are available on the `Pre-Release PPA`_, by adding ``ppa:vkbo/novelwriter-pre`` instead.
