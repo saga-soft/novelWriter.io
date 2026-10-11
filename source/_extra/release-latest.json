@@ -1,21 +1,21 @@
 {
   "release": {
-    "version": "26.2.1",
+    "version": "26.2.2",
     "major": 26,
     "minor": 2,
-    "patch": 1,
+    "patch": 2,
     "info": {
-      "name": "2026.2 Patch 1",
-      "date": "2026-09-26T17:37:59Z",
-      "url": "https://github.com/saga-soft/novelWriter/releases/tag/v26.2.1",
+      "name": "2026.2 Patch 2",
+      "date": "2026-10-11T17:07:27Z",
+      "url": "https://github.com/saga-soft/novelWriter/releases/tag/v26.2.2",
       "assets": {
-        "appimage": "https://github.com/saga-soft/novelWriter/releases/download/v26.2.1/novelwriter-26.2.1-x86_64.AppImage",
-        "flatpak": "https://github.com/saga-soft/novelWriter/releases/download/v26.2.1/novelwriter-26.2.1-linux.flatpak",
-        "winexe": "https://github.com/saga-soft/novelWriter/releases/download/v26.2.1/novelwriter-26.2.1-amd64-setup.exe",
+        "appimage": "https://github.com/saga-soft/novelWriter/releases/download/v26.2.2/novelwriter-26.2.2-x86_64.AppImage",
+        "flatpak": "https://github.com/saga-soft/novelWriter/releases/download/v26.2.2/novelwriter-26.2.2-linux.flatpak",
+        "winexe": "https://github.com/saga-soft/novelWriter/releases/download/v26.2.2/novelwriter-26.2.2-amd64-setup.exe",
         "macx86": "",
         "macarm": "",
-        "zipball": "https://api.github.com/repos/saga-soft/novelWriter/zipball/v26.2.1",
-        "tarball": "https://api.github.com/repos/saga-soft/novelWriter/tarball/v26.2.1"
+        "zipball": "https://api.github.com/repos/saga-soft/novelWriter/zipball/v26.2.2",
+        "tarball": "https://api.github.com/repos/saga-soft/novelWriter/tarball/v26.2.2"
       }
     }
   }

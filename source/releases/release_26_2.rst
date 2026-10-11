@@ -6,7 +6,7 @@ Release 2026.2
 **************
 
 | **Release Date:** 5 September, 2026
-| **Patches:** :ref:`2026.2.1 <main_release_26_2_1>`
+| **Patches:** :ref:`2026.2.1 <main_release_26_2_1>`, :ref:`2026.2.2 <main_release_26_2_2>`
 
 
 Release Notes
@@ -130,6 +130,18 @@ This is a patch release that fixes a minor issue with the theme on the new hover
 who installed via the now deprecated Launchpad PPA. French and Russian translations have been updated.
 
 
+.. _main_release_26_2_2:
+
+Patch 2026.2.2
+--------------
+
+**Release Date:** 11 October, 2026
+
+This is a patch release that fixes a bug where some unexpected symbols in the text could break manuscript documents for
+Libre Office and Word. Paragraphs following a horizontal ruler in the manuscript are no longer indented when first line
+indent is enabled. The French translation has been updated.
+
+
 Download Links
 ==============
 
@@ -141,6 +153,7 @@ Older Releases
 
 Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
+| :octicon:`mark-github` `Download Release 26.2.1<https://github.com/saga-soft/novelWriter/releases/tag/v26.2.1>`__
 | :octicon:`mark-github` `Download Release 26.2 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2>`__
 | :octicon:`mark-github` `Download Release 26.2 RC 1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2rc1>`__
 | :octicon:`mark-github` `Download Release 26.2 Beta 2 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2b2>`__
