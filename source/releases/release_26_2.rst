@@ -153,7 +153,7 @@ Older Releases
 
 Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
-| :octicon:`mark-github` `Download Release 26.2.1<https://github.com/saga-soft/novelWriter/releases/tag/v26.2.1>`__
+| :octicon:`mark-github` `Download Release 26.2.1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2.1>`__
 | :octicon:`mark-github` `Download Release 26.2 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2>`__
 | :octicon:`mark-github` `Download Release 26.2 RC 1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2rc1>`__
 | :octicon:`mark-github` `Download Release 26.2 Beta 2 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2b2>`__
