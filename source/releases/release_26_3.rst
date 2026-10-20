@@ -11,8 +11,9 @@ Release Notes
 =============
 
 This release replaces the old Outline panel with a brand new Story View, and adds basic support for right-to-left
-languages. The text editor gains simple lists, text alignment buttons, and proper links. There are also new page layout
-options for book printing, better handling of copied projects and backups, and a refreshed set of icon themes.
+languages. The text editor gains simple lists, text alignment buttons, and proper Markdown links including file links.
+There are also new page layout options for book printing, better handling of copied projects and backups, and a
+refreshed set of icon themes.
 
 .. attention::
 
