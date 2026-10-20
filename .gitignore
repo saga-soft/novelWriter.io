@@ -4,3 +4,12 @@ build/
 # Dev Stuff
 .pytest_cache/
 _temp/
+
+# No AI files
+AGENTS.md
+CLAUSE.md
+GEMINI.md
+.claude/
+.cursor*
+.codex/
+.gemini/
