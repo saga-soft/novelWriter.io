@@ -11,8 +11,10 @@ Latest Release
    .. grid-item-card::
       :class-header: nw-sd-os-card-header
 
-      **Linux**
-      ^^^^^^^^^
+      .. card-header::
+
+         **Linux**
+
       .. grid:: 2
          :margin: 0
          :padding: 0
@@ -38,8 +40,10 @@ Latest Release
    .. grid-item-card::
       :class-header: nw-sd-os-card-header
 
-      **Windows**
-      ^^^^^^^^^^^
+      .. card-header::
+
+         **Windows**
+
       .. grid:: 2
          :margin: 0
          :padding: 0

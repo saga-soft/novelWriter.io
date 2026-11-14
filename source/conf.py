@@ -36,6 +36,8 @@ today_fmt = "%A, %-d %B %Y at %H:%M"
 language = "en"
 root_doc = "index"
 
+sd_card_legacy_separators = False
+
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
