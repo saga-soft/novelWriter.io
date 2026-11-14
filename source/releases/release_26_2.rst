@@ -6,7 +6,8 @@ Release 2026.2
 **************
 
 | **Release Date:** 5 September, 2026
-| **Patches:** :ref:`2026.2.1 <main_release_26_2_1>`, :ref:`2026.2.2 <main_release_26_2_2>`
+| **Patches:** :ref:`2026.2.1 <main_release_26_2_1>`, :ref:`2026.2.2 <main_release_26_2_2>`,
+  :ref:`2026.2.3 <main_release_26_2_3>`
 
 
 Release Notes
@@ -142,6 +143,19 @@ Libre Office and Word. Paragraphs following a horizontal ruler in the manuscript
 indent is enabled. The French translation has been updated.
 
 
+.. _main_release_26_2_3:
+
+Patch 2026.2.3
+--------------
+
+**Release Date:** 14 November, 2026
+
+This is a patch release that fixes a crash in the editor seen in the Flatpak on Fedora, custom document margins being
+ignored in manuscript builds, nested and unclosed formatting producing odd results in most manuscript formats, the
+search highlight extending onto newly typed text, and the project tree icon not updating when a document's heading is
+removed.
+
+
 Download Links
 ==============
 
@@ -153,6 +167,7 @@ Older Releases
 
 Past release packages are available for download on `GitHub <https://github.com/saga-soft/novelWriter/releases>`__.
 
+| :octicon:`mark-github` `Download Release 26.2.2 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2.2>`__
 | :octicon:`mark-github` `Download Release 26.2.1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2.1>`__
 | :octicon:`mark-github` `Download Release 26.2 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2>`__
 | :octicon:`mark-github` `Download Release 26.2 RC 1 <https://github.com/saga-soft/novelWriter/releases/tag/v26.2rc1>`__
