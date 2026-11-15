@@ -3,9 +3,9 @@ Checksum Files
 
 Checksum files are released alongside the packages. These files can be used to verify the downloaded package.
 
-* **Linux AppImage:** :octicon:`download` `Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.3b1/novelwriter-26.3b1-x86_64.AppImage.sha256>`__
-* **Linux Flatpak:** :octicon:`download` `Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.3b1/novelwriter-26.3b1-linux.flatpak.sha256>`__
-* **Windows Installer:** :octicon:`download` `Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.3b1/novelwriter-26.3b1-amd64-setup.exe.sha256>`__
+* **Linux AppImage:** :octicon:`download` `Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.3rc1/novelwriter-26.3rc1-x86_64.AppImage.sha256>`__
+* **Linux Flatpak:** :octicon:`download` `Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.3rc1/novelwriter-26.3rc1-linux.flatpak.sha256>`__
+* **Windows Installer:** :octicon:`download` `Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.3rc1/novelwriter-26.3rc1-amd64-setup.exe.sha256>`__
 
 .. rubric:: Verify the Checksum
 
@@ -18,8 +18,8 @@ Checksum files are released alongside the packages. These files can be used to v
 
       .. code-block:: bash
 
-         shasum -c novelwriter-26.3b1-x86_64.AppImage.sha256
-         shasum -c novelwriter-26.3b1-linux.flatpak.sha256
+         shasum -c novelwriter-26.3rc1-x86_64.AppImage.sha256
+         shasum -c novelwriter-26.3rc1-linux.flatpak.sha256
 
    .. tab-item:: Windows
 
@@ -28,4 +28,4 @@ Checksum files are released alongside the packages. These files can be used to v
 
       .. code-block:: powershell
 
-         Get-FileHash -Algorithm SHA256 novelwriter-26.3b1-amd64-setup.exe | Format-List
+         Get-FileHash -Algorithm SHA256 novelwriter-26.3rc1-amd64-setup.exe | Format-List

@@ -9,11 +9,11 @@
 .. _PyPi: https://pypi.org/project/novelWriter/
 .. _Cloudsmith: https://cloudsmith.com/
 
-| **Release Version:** 2026.3 Beta 1
-| **Release Date:** October 20, 2026
+| **Release Version:** 2026.3 RC 1
+| **Release Date:** November 15, 2026
 | **Release Notes:** :ref:`main_release_26_3`
-| **Release Feedback:** :octicon:`comment-discussion` `Discussion <https://github.com/saga-soft/novelWriter/discussions/3113>`__
-| **Release on GitHub:** :octicon:`mark-github` `GitHub <https://github.com/saga-soft/novelWriter/releases/tag/v26.3b1>`__
+| **Release Feedback:** :octicon:`comment-discussion` `Discussion <https://github.com/saga-soft/novelWriter/discussions/3152>`__
+| **Release on GitHub:** :octicon:`mark-github` `GitHub <https://github.com/saga-soft/novelWriter/releases/tag/v26.3rc1>`__
 
 .. |linux-logo| image:: ../images/linux.svg
    :class: dark-light custom-inline-image-title
@@ -35,8 +35,8 @@ AppImage
 
    The AppImage_ should run on any recent Linux distro.
 
-   :octicon:`download` `novelwriter-26.3b1-x86_64.AppImage <https://github.com/saga-soft/novelWriter/releases/download/v26.3b1/novelwriter-26.3b1-x86_64.AppImage>`__ [84.4 MB]
-   :bdg-link-primary-line:`Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.3b1/novelwriter-26.3b1-x86_64.AppImage.sha256>`
+   :octicon:`download` `novelwriter-26.3rc1-x86_64.AppImage <https://github.com/saga-soft/novelWriter/releases/download/v26.3rc1/novelwriter-26.3rc1-x86_64.AppImage>`__ [84.1 MB]
+   :bdg-link-primary-line:`Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.3rc1/novelwriter-26.3rc1-x86_64.AppImage.sha256>`
 
 
 Flatpak (Experimental)
@@ -46,8 +46,8 @@ Flatpak (Experimental)
 
    The Flatpak_ should run on any recent Linux distro.
 
-   :octicon:`download` `novelwriter-26.3b1-linux.flatpak <https://github.com/saga-soft/novelWriter/releases/download/v26.3b1/novelwriter-26.3b1-linux.flatpak>`__ [11.1 MB]
-   :bdg-link-primary-line:`Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.3b1/novelwriter-26.3b1-linux.flatpak.sha256>`
+   :octicon:`download` `novelwriter-26.3rc1-linux.flatpak <https://github.com/saga-soft/novelWriter/releases/download/v26.3rc1/novelwriter-26.3rc1-linux.flatpak>`__ [11.1 MB]
+   :bdg-link-primary-line:`Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.3rc1/novelwriter-26.3rc1-linux.flatpak.sha256>`
 
 
 Debian Packages
@@ -74,8 +74,8 @@ Setup Installer
 
    This is a standard setup installer for Windows. It is made for Windows 10 or newer.
 
-   :octicon:`download` `novelwriter-26.3b1-amd64-setup.exe <https://github.com/saga-soft/novelWriter/releases/download/v26.3b1/novelwriter-26.3b1-amd64-setup.exe>`__ [104 MB]
-   :bdg-link-primary-line:`Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.3b1/novelwriter-26.3b1-amd64-setup.exe.sha256>`
+   :octicon:`download` `novelwriter-26.3rc1-amd64-setup.exe <https://github.com/saga-soft/novelWriter/releases/download/v26.3rc1/novelwriter-26.3rc1-amd64-setup.exe>`__ [103 MB]
+   :bdg-link-primary-line:`Checksum File <https://github.com/saga-soft/novelWriter/releases/download/v26.3rc1/novelwriter-26.3rc1-amd64-setup.exe.sha256>`
 
    Free code signing is provided by `SignPath.io`_, certificate by `SignPath Foundation`_.
 
@@ -92,7 +92,7 @@ Python Wheel
 
    .. code-block:: bash
 
-      pipx install novelwriter==26.3b1
+      pipx install novelwriter==26.3rc1
 
    See :ref:`main_install_pypi` for more details.
 
@@ -104,8 +104,8 @@ Source Code
 
    The source code packages are archived files of the entire source code.
 
-   | :octicon:`download` `novelWriter-26.3b1.zip <https://api.github.com/repos/saga-soft/novelWriter/zipball/v26.3b1>`__
-   | :octicon:`download` `novelWriter-26.3b1.tar.gz <https://api.github.com/repos/saga-soft/novelWriter/tarball/v26.3b1>`__
+   | :octicon:`download` `novelWriter-26.3rc1.zip <https://api.github.com/repos/saga-soft/novelWriter/zipball/v26.3rc1>`__
+   | :octicon:`download` `novelWriter-26.3rc1.tar.gz <https://api.github.com/repos/saga-soft/novelWriter/tarball/v26.3rc1>`__
 
    See also the `novelWriter Repository`_.
 
